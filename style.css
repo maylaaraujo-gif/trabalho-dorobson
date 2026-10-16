@@ -1,0 +1,80 @@
+body {
+    background-color: #121212; /* Preto escuro de fundo */
+    color: #FFFFFF;
+    font-family: 'Arial', sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    margin: 0;
+}
+
+.caixa-principal {
+    background-color: #1E1E1E; /* Cartão grafite escuro */
+    width: 90%;
+    max-width: 650px;
+    padding: 30px;
+    border-radius: 16px;
+    box-shadow: 0 8px 24px rgba(255, 102, 0, 0.2);
+    border: 3px solid #FF6600; /* Borda Laranja vibrante */
+    text-align: center;
+}
+
+h1 {
+    color: #FF6600; /* Laranja */
+    font-size: 28px;
+    margin-bottom: 20px;
+    text-transform: uppercase;
+    letter-spacing: 1.5px;
+}
+
+.caixa-perguntas {
+    font-size: 19px;
+    line-height: 1.5;
+    margin-bottom: 20px;
+    color: #FFFFFF;
+    font-weight: bold;
+}
+
+.texto-resultado {
+    font-size: 16px;
+    line-height: 1.6;
+    margin-bottom: 20px;
+    color: #DDDDDD;
+    text-align: left;
+}
+
+.texto-resultado p {
+    background-color: #2A2A2A;
+    padding: 12px;
+    border-radius: 8px;
+    border-left: 4px solid #FF6600; /* Detalhe lateral Laranja */
+    margin-bottom: 10px;
+}
+
+.caixa-alternativas {
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
+}
+
+button {
+    background-color: #FF6600; /* Laranja */
+    color: #121212; /* Texto escuro para alto contraste */
+    border: none;
+    padding: 14px 20px;
+    border-radius: 8px;
+    font-size: 16px;
+    font-weight: bold;
+    cursor: pointer;
+    transition: transform 0.2s ease, background-color 0.2s ease;
+}
+
+button:hover {
+    background-color: #FF8533; /* Laranja mais claro no hover */
+    transform: translateY(-3px);
+}
+
+button:active {
+    transform: translateY(0);
+}
